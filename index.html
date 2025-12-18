@@ -3,167 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Diễn viên hiện trên biển</title>
+  <title>Diễn Viên Hiện Trên Biển</title>
   <link rel="icon" href="favicon.png" />
   <style>
     body {
-      font-family: 'Courier New', Courier, monospace;
-      background-color: #111;
-      color: #eee;
       margin: 0;
-      padding: 0;
+      background: #0f0f0f;
+      color: #eaeaea;
+      font-family: "Courier New", Courier, monospace;
+      line-height: 1.6;
     }
-
-    nav {
-      background-color: #000;
-      border-bottom: 1px solid #444;
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+      text-align: center;
     }
-
-    nav ul {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      list-style: none;
-      margin: 0;
-      padding: 1rem;
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
     }
-
-    nav a {
-      color: #eee;
+    p {
+      opacity: 0.85;
+      margin-bottom: 1.2rem;
+    }
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: #444;
+      margin: 2rem auto;
+    }
+    a {
+      color: #9ad;
       text-decoration: none;
-      transition: color 0.3s ease;
     }
-
-    nav a:hover {
-      color: #fff;
+    a:hover {
       text-decoration: underline;
     }
-
-    main {
-      padding: 2rem 1rem 4rem;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    section {
-      margin-bottom: 3rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      color: #fff;
-    }
-
-    p, li {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    .portrait {
-      max-width: 550px;
-      width: 100%;
-      border-radius: 6px;
-      margin-bottom: 1rem;
-      box-shadow: 0 0 10px #000;
-    }
-
-    pre.poem {
-      background-color: #222;
-      padding: 1.5rem;
-      border-left: 4px solid #888;
-      font-size: 1rem;
-      line-height: 1.6;
-      overflow-x: auto;
-      white-space: pre-wrap;
-    }
-
     footer {
-      text-align: center;
+      margin-top: 4rem;
       font-size: 0.9rem;
-      color: #777;
-      padding: 2rem 1rem;
-      border-top: 1px solid #333;
+      opacity: 0.6;
     }
   </style>
 </head>
 <body>
-
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="#home">Trang chủ</a></li>
-      <li><a href="#about">Giới thiệu</a></li>
-      <li><a href="#work">Kinh nghiệm</a></li>
-      <li><a href="#direction">Định hướng</a></li>
-      <li><a href="#poem">Thơ</a></li>
-    </ul>
-  </nav>
-
   <main>
-    <!-- Section 1 -->
-    <section id="about" style="text-align: center;">
-      <h2>🌊 Tôi là ai?</h2>
-      <img src="portrait.jpg" alt="Chân dung kỹ sư" class="portrait" />
-      <p>
-        Tôi là một kỹ sư điện ngoài khơi – người sửa sóng để kết nối, người bắt ánh sáng để kể chuyện.
-        Giữa đại dương không Wi-Fi, tôi vẫn sync được cảm xúc.
-        Từ passkey bảo mật đến khẩu độ máy ảnh, tôi sống giữa công nghệ và thơ ca.
-      </p>
-    </section>
+    <h1>Diễn Viên Hiện Trên Biển</h1>
 
-    <!-- Section 2 -->
-    <section id="work">
-      <h2>⚙️ Tôi đã làm gì?</h2>
-      <ul>
-        <li>Quản lý hệ thống Internet vệ tinh Starlink + VSAT cho đội tàu PVT Logistics</li>
-        <li>Xây dựng nền tảng SMMS và CanoPus cho kỹ thuật hàng hải</li>
-        <li>Bảo mật tài khoản bằng Passkey, YubiKey, 2FA – chuẩn Zero Trust cá nhân</li>
-        <li>Chụp ảnh kỹ thuật – hành trình – đời sống trên biển với góc nhìn cá nhân</li>
-        <li>Triển khai thương hiệu “Diễn viên hiện trên biển” bằng code và cảm xúc</li>
-      </ul>
-    </section>
+    <p>
+      Một nghệ danh được sinh ra từ boong tàu.<br>
+      Nhạc, hình ảnh và câu chuyện của những người sống giữa sóng.
+    </p>
 
-    <!-- Section 3 -->
-    <section id="direction">
-      <h2>📡 Định hướng</h2>
-      <p>
-        Tôi không chỉ xử lý tín hiệu VSAT và mô-đun mạng – tôi còn tìm kiếm tín hiệu từ con người.
-        Với ống kính máy ảnh và passkey trong tay, tôi kể lại câu chuyện của những người sống giữa sóng.
-        Trong tương lai, tôi mong muốn giúp thuyền viên kết nối dễ dàng hơn bằng các giải pháp mới như OneWeb –
-        nhanh hơn, rẻ hơn VSAT, và thân thiện với trải nghiệm người dùng.
-        Đó không chỉ là tối ưu kỹ thuật – đó là cách tôi đóng góp để cuộc sống trên biển bớt cô lập và bền vững hơn.
-      </p>
-    </section>
+    <div class="divider"></div>
 
-    <!-- Poem Section -->
-    <section id="poem">
-      <h2>📝 Bài thơ cá nhân</h2>
-      <pre class="poem">
-Kỹ sư điện ngoài khơi.
-Có passkey, có lens, không có sóng.
-Vừa unlock server, vừa bắt ánh sáng. Passkey đâu 🪪 tôi đó.
-Giữa đại dương không Wi-Fi, tôi vẫn sync được cảm xúc.
-Cầm passkey mở bảo mật, cầm máy ảnh mở lòng người.
-Debug mạng xong, tôi đi chụp ánh sáng. Gọi đó là cân bằng.
-Ảnh không nét thì tôi lấy nét. Sóng không mạnh thì tôi reset router.
-Dưới ánh trăng và tín hiệu OneWeb, tôi chỉnh tay cả khẩu độ lẫn subnet.
-      </pre>
-    </section>
+    <p>
+      Tôi không đứng trên sân khấu.<br>
+      Tôi hiện diện – giữa biển, giữa đêm, giữa tín hiệu yếu.
+    </p>
+
+    <div class="divider"></div>
+
+    <p>
+      Liên hệ / xác minh nghệ sĩ:<br>
+      <a href="mailto:id@thuyen.ai">id@thuyen.ai</a>
+    </p>
+
+    <footer>
+      © 2025 Diễn Viên Hiện Trên Biển
+    </footer>
   </main>
-    <!-- Signature -->
-    <section style="text-align: center; margin-top: 2rem; color: #aaa; font-size: 0.95rem;">
-      <p><strong>Thuyen Dinh Nguyen (Duncan)</strong></p>
-      <p>TECHNICAL AND PURCHASING DEPARTMENT</p>
-      <p>PHUONG DONG VIET SHIPPING AND LOGISTICS CORPORATION</p>
-    </section>
-  <footer>
-    <p>&copy; 2025 Diễn viên hiện trên biển</p>
-  </footer>
-
 </body>
 </html>
